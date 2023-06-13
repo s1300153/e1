@@ -19,8 +19,8 @@ int main(){
 
   printf("Die 1: %d\nDie 2: %d\nTotal value: %d\n",d1,d2,d1+d2);
 
-  if(d1+d2 > 7)printf("You won\n");
-  else printf("You lose\n");
+  if(d1+d2 > 7)printf("%s won!\n",name);
+  else printf("%s lose!\n",name);
 
   return 0;
 }
